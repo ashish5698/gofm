@@ -63,7 +63,7 @@ const App = () => {
       headers: new Headers({ "Content-Type": "text/plain;charset=utf-8"})
     };
     const result = await fetch(
-      "fetchsong.php",
+      "https://gofm-api.vercel.app/currentsong",
       options
     );
     const data = await result.text();
