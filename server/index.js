@@ -4,7 +4,7 @@ const express = require("express", cors = require('cors'));
 const app = express();
 
 app.use(cors({
-    origin: 'http://173.249.15.117:9128',
+    origin: '*'
 }))
 
 // Create GET request
