@@ -839,9 +839,8 @@ hr.bk-black {
 footer .box-footer {
   padding: 80px;
   padding: 80px;
-  padding: 6rem;
+  padding: 8rem;
   text-align: -webkit-center;
-  flex-basis: 50%;
   align-self: center;
 }
 
@@ -890,6 +889,9 @@ footer .gotop img:hover {
   footer .gotop img {
     margin-top: 0rem;
   }
+  footer .container-fluid {
+    flex-wrap: wrap;
+  }
 }
 
 button.scroll-to-top {
@@ -898,16 +900,14 @@ button.scroll-to-top {
   height: 28.2rem;
 }
 
-@media screen and (max-width: 992px) {
-  button.scroll-to-top {
-    height: 7.5rem;
-  }
-}
-
 @media screen and (min-width: 992px) {
   footer .scroll-to-top:hover {
     cursor: pointer;
   }
+
+  .col-sm-6.purple-bk.box-footer {
+    padding-bottom: 27rem;
+}
 }
 
 footer .container-fluid {
