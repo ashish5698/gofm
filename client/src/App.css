@@ -763,10 +763,6 @@ hr.bk-black {
 }
 
 @media screen and (max-width: 992px) {
-  .contact h2 {
-    font-size: 12rem;
-  }
-
   .contact .pt-48 {
     flex-wrap: wrap;
   }
@@ -843,9 +839,10 @@ hr.bk-black {
 footer .box-footer {
   padding: 80px;
   padding: 80px;
-  padding: 8rem;
+  padding: 6rem;
   text-align: -webkit-center;
   flex-basis: 50%;
+  align-self: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -853,7 +850,6 @@ footer .box-footer {
     padding: 24rem;
   }
 }
-
 
 .purple-bk {
   background: #660099;
@@ -899,11 +895,12 @@ footer .gotop img:hover {
 button.scroll-to-top {
   background: none;
   border: none;
+  height: 28.2rem;
 }
 
 @media screen and (max-width: 992px) {
   button.scroll-to-top {
-    height: 11rem;
+    height: 7.5rem;
   }
 }
 
