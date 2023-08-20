@@ -52,7 +52,10 @@ h2 {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  height: 16rem;
+}
+
+.logo img {
+    height: 16rem;
 }
 
 .meta-info {
