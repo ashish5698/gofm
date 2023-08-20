@@ -52,8 +52,7 @@ h2 {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  height: 12rem;
-  width: 12rem;
+  height: 16rem;
 }
 
 .meta-info {
